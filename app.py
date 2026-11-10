@@ -11,6 +11,12 @@ st.set_page_config(
 )
 
 # Connect to database
+from pathlib import Path
+
+db_path = Path("database/students.db")
+
+if not db_path.exists():
+    import database
 connection = sqlite3.connect("database/students.db")
 
 students = pd.read_sql_query(
