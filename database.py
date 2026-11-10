@@ -5,6 +5,9 @@ import sqlite3
 students = pd.read_csv("data/student-mat.csv", sep=";")
 
 # Connect to SQLite database
+from pathlib import Path
+Path("database").mkdir(parents=True, exist_ok=True)
+
 connection = sqlite3.connect("database/students.db")
 
 # Store student records in a SQL table
