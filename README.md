@@ -3,6 +3,9 @@
 An interactive data analytics dashboard built with **Python, Pandas, SQLite, Plotly, and Streamlit** to explore student academic performance and identify trends in grades, study habits, and school attendance.
 
 **[View Live Dashboard](https://student-performance-analytics-data.streamlit.app/)** | **[GitHub Repository](https://github.com/dclermo3/student-performance-analytics)**
+## Dashboard Preview
+
+![Student Performance Analytics Dashboard](dashboard_preview.png)
 
 ## Project Overview
 
